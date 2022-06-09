@@ -1,0 +1,63 @@
+
+$greenColor: rgba(17, 209, 69, 0.95);
+$trueGreen : rgba(27, 179, 159, 1);
+$greenLessColor : rgba(27, 179, 159, 0.1);
+$orange : rgba(255, 127, 39, 0.95);
+$yellow : rgba(255,202,24, 1);
+
+
+
+.levelContainer
+{
+    margin-top: 2em;
+}
+.passLevel
+{
+    width: 200px;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin: auto;
+}
+
+.hiddenBtn{
+    display: none;
+}
+
+.videoCenter{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.scenario {
+    width: 300px;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 1em;
+}
+.instruLevel{
+    margin-bottom: 0.5em;
+}
+.lightContainer{
+    text-align: center;
+}
+
+.light{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+.greenLight {
+    background-color: $greenColor;
+}
+
+.redLight {
+    background-color: red;
+}

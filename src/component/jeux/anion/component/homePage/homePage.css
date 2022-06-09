@@ -1,0 +1,51 @@
+body {
+  background-color: rgba(255, 127, 39, 0.95);
+  padding: 1em;
+}
+
+.homePage {
+  background-color: white;
+  border-radius: 15px;
+  padding: 1em;
+  text-align: center;
+}
+
+.buttonLink {
+  list-style: none;
+  background-color: rgba(17, 209, 69, 0.95);
+  padding: 10px;
+  border-radius: 5px;
+  color: White;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 0.95px 0.95px rgba(17, 209, 69, 0.95);
+          box-shadow: 0px 0px 0.95px 0.95px rgba(17, 209, 69, 0.95);
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  letter-spacing: 0.80px;
+}
+
+.button {
+  list-style: none;
+  background-color: rgba(17, 209, 69, 0.95);
+  padding: 10px;
+  border-radius: 5px;
+  color: White;
+  margin: 0.4em;
+  -webkit-box-shadow: 0px 0px 0.95px 0.95px rgba(17, 209, 69, 0.95);
+          box-shadow: 0px 0px 0.95px 0.95px rgba(17, 209, 69, 0.95);
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.videoContainerIntro {
+  width: 200px;
+  margin: auto;
+}
+
+.listLevel {
+  margin-top: 1em;
+}
+/*# sourceMappingURL=homePage.css.map */

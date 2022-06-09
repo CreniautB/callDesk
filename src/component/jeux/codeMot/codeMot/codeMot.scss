@@ -1,0 +1,86 @@
+
+$greenColor: rgba(17, 209, 69, 0.95);
+$trueGreen : rgba(27, 179, 159, 1);
+$greenLessColor : rgba(27, 179, 159, 0.1);
+$orange : rgba(255, 127, 39, 0.95);
+$yellow : rgba(255,202,24, 1);
+
+.levelMotCode{
+    h1{
+        font-size: 23px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}
+
+.regle {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.inputContainerCodeMot
+{
+    input {
+        height: 40px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 22px;
+        max-width: 150px;
+        letter-spacing: 6px;
+        margin-bottom: 0.5em;
+    }
+}
+.arrayContainer{
+
+    margin-top: 1em;
+
+    .colonne{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .square{
+        width: 40px;
+        height: 40px;
+        border: solid 2px black;
+        margin: 0.2em;
+        border-radius: 5px;
+        font-size: 25px;
+        font-weight: 600;
+        padding-top: 0.1em;
+    }
+
+}
+
+.code{
+    letter-spacing: 1.5px;
+    color: $orange;
+}
+
+.tourCount{
+    width: 100px;
+    margin: auto;
+    margin-bottom: 1.5em;
+    font-size: 16px;
+    background-color: $greenColor;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5em;
+    font-weight: 600;
+}
+
+.timer{
+    width: 150px;
+    margin: auto!important;
+    padding: 0.2em!important;
+    margin-top: 1em!important;
+    letter-spacing: 0.1em;
+    font-size: 18px!important;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.btnHidden{
+    display: none;
+}

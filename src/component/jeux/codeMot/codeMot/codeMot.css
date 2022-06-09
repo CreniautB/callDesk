@@ -1,0 +1,82 @@
+.levelMotCode h1 {
+  font-size: 23px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.regle {
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.inputContainerCodeMot input {
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 22px;
+  max-width: 150px;
+  letter-spacing: 6px;
+  margin-bottom: 0.5em;
+}
+
+.arrayContainer {
+  margin-top: 1em;
+}
+
+.arrayContainer .colonne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.arrayContainer .square {
+  width: 40px;
+  height: 40px;
+  border: solid 2px black;
+  margin: 0.2em;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 0.1em;
+}
+
+.code {
+  letter-spacing: 1.5px;
+  color: rgba(255, 127, 39, 0.95);
+}
+
+.tourCount {
+  width: 100px;
+  margin: auto;
+  margin-bottom: 1.5em;
+  font-size: 16px;
+  background-color: rgba(17, 209, 69, 0.95);
+  border-radius: 5px;
+  color: white;
+  padding: 0.5em;
+  font-weight: 600;
+}
+
+.timer {
+  width: 150px;
+  margin: auto !important;
+  padding: 0.2em !important;
+  margin-top: 1em !important;
+  letter-spacing: 0.1em;
+  font-size: 18px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.btnHidden {
+  display: none;
+}
+/*# sourceMappingURL=codeMot.css.map */

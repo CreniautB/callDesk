@@ -1,0 +1,44 @@
+$greenColor: rgba(17, 209, 69, 0.95);
+$trueGreen : rgba(27, 179, 159, 1);
+$greenLessColor : rgba(27, 179, 159, 0.1);
+$orange : rgba(255, 127, 39, 0.95);
+$yellow : rgba(255,202,24, 1);
+
+
+.paraBienvenue{
+    font-size: 20px;
+}
+.auth{
+    display: flex;
+    justify-content: space-around;
+
+    .formTitle{
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .loginForm, .signupForm{
+        display: flex;
+        flex-direction: column;
+
+        label{
+            text-align: center;
+            margin-bottom: 1em;
+            margin-top: 1em;
+            text-transform: uppercase;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        input {
+            padding: 0.35em;
+            border: 2.5px $orange solid;
+            border-radius: 5px;
+        }
+
+        .button {
+            margin-top: 1em;
+        }
+        
+    }
+
+}

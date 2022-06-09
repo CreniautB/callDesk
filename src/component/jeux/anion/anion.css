@@ -1,0 +1,46 @@
+.mainContainerAnion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainContainerAnion .videoContainerIntro {
+  margin: 1em;
+}
+
+.mainContainerAnion .webcamContainer {
+  margin: 1em;
+}
+
+.mainContainerAnion .webcamContainer video {
+  width: 300px;
+}
+
+@media screen and (max-width: 500px) {
+  .lightContainer {
+    margin-bottom: 1em;
+  }
+  .mainContainerAnion {
+    width: 300px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .mainContainerAnion .webcamContainer {
+    margin: auto;
+    margin-bottom: 1em;
+  }
+  .mainContainerAnion .webcamContainer video {
+    height: auto;
+  }
+}
+/*# sourceMappingURL=anion.css.map */

@@ -1,0 +1,65 @@
+$greenColor: rgba(17, 209, 69, 0.95);
+$trueGreen : rgba(27, 179, 159, 1);
+$greenLessColor : rgba(27, 179, 159, 0.1);
+$orange : rgba(255, 127, 39, 0.95);
+$yellow : rgba(255,202,24, 1);
+
+.suiteLevelContainer{
+    text-align: center;
+}
+
+.time{
+    margin-top: 1em;
+}
+
+.grilleReponse{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    margin-top: 2em;
+
+    .square4Suite{
+        height: 30px;
+        width: 130px;
+        background-color: $greenColor;
+        padding-top: 0.5em;
+        border-radius: 5px;
+        margin: 0.1em;
+        color: white;
+        font-size: 15px;
+    }
+
+    .notGoodSquare{
+        background-color: $orange;
+    }
+}
+.countContainer{
+
+    margin-bottom: 1em;
+
+    .count {
+        margin-bottom: 1em;
+        max-width: 160px;
+        margin: auto;
+        margin-top: 1em;
+        padding: 0.5em;
+    }
+}
+
+
+.question{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+@media screen and (max-width : 550px) {
+    .grilleReponse{
+        width: 95%;
+    }
+}

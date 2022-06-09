@@ -1,0 +1,40 @@
+.mainContainerAnion{
+    display: flex;
+    justify-content: center;
+    .videoContainerIntro{
+        margin: 1em;
+    }
+    .webcamContainer{
+        margin: 1em;
+        video{
+            width: 300px;
+        }
+    }
+}
+
+
+@media screen and (max-width :500px){
+
+
+    .lightContainer{
+        margin-bottom: 1em;
+    }
+
+    .mainContainerAnion{
+        width: 300px!important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .webcamContainer{
+            margin: auto;
+            margin-bottom: 1em;
+            video{
+                height: auto;
+            }
+        }
+
+    }
+
+
+}

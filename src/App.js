@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react'
+import HomePage from './component/HomePage/homePage.jsx'
+import Auth from './component/Auth/auth.jsx';
+import './app.css'
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
 
 function App() {
+
+  const [log, setLog] = useState(false)
+   
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <Router>
+    <Switch>
+      <Route path="/homePage">
+        <HomePage log={log} setLog={setLog} />
+      </Route>
+      <Route path="/">
+        <Auth  log={log} setLog={setLog} />
+      </Route>
+    </Switch>
+  </Router>
+
   );
+
 }
 
 export default App;
+

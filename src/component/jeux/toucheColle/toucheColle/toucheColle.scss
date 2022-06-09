@@ -1,0 +1,73 @@
+
+$greenColor: rgba(17, 209, 69, 0.95);
+$trueGreen : rgba(27, 179, 159, 1);
+$greenLessColor : rgba(27, 179, 159, 0.1);
+$orange : rgba(255, 127, 39, 0.95);
+$yellow : rgba(255,202,24, 1);
+
+.toucheColleLevelContainer{
+    text-align: center;
+}
+
+.listContainerToucheColle{
+
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 2em;
+
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+        justify-content: center;
+                
+
+        .squareToucheColle {
+            border: 2px solid $greenColor;
+            border-radius: 5px;
+            font-size: 22px;
+            margin: 0.1em;
+            font-weight: 600;
+            padding: 0.5em;
+            background-color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+.rouge{
+    color: red;
+    font-weight: bold;
+}
+
+.vert{
+    color: green;
+    font-weight: bold;
+}
+
+.time{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.containerMesure{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    justify-content: center;
+}
+.btnMesure{
+    padding: 0.5em!important;
+    font-weight: 600;
+}
+
+@media screen and (max-width : 600px) {
+    .listContainerToucheColle{
+        justify-content: space-around!important;
+    }
+    .squareToucheColle{
+        font-size: 15px!important;
+    }
+}

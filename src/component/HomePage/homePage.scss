@@ -1,0 +1,38 @@
+$greenColor: rgba(17, 209, 69, 0.95);
+$trueGreen : rgba(27, 179, 159, 1);
+$greenLessColor : rgba(27, 179, 159, 0.1);
+$orange : rgba(255, 127, 39, 0.95);
+$yellow : rgba(255,202,24, 1);
+
+
+html {
+    background-color: $orange;
+}
+body{
+    background-color: #fafafa;
+    margin: 2em;
+    border-radius: 10px;
+    padding: 1em;
+    min-height: 90vh;
+
+}
+
+.intro{
+    text-align: center;
+    padding: 2em;
+    padding-top: 0;
+}
+
+.selectProduct, .selectGame{
+    min-height: 15vh;
+    margin-top: 3em;
+}
+
+.deconnexion{
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    font-size: 23px!important;   
+    padding: 0.5em!important;
+
+}
